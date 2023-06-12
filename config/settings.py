@@ -154,6 +154,7 @@ EMAIL_USE_TLS = env("EMAIL_USE_TLS") # Replace with True if using TLS
 EMAIL_HOST_USER = env("EMAIL_HOST_USER") # Replace with your SMTP username
 EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD") # Replace with your SMTP password
 RECIPIENT_ADDRESS = env('RECIPIENT_ADDRESS')
+EMAIL_USE_SSL = False
 
 
 # PASSWORD_HASHERS = [

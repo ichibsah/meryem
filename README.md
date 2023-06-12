@@ -67,6 +67,10 @@ python -m pip install argon2-cffi
 
 pip install django-environ
 
+### Django send email
+https://www.sitepoint.com/django-send-email/
+https://steelkiwi.com/blog/sending-emails-in-django-definitive-tutorial/
+https://www.abstractapi.com/guides/django-send-email
 
 ### python dictionaries
 
