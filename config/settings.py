@@ -39,6 +39,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://*.sawadogo.xyz',
 #    "https://django.sawadogo.xyz",
     'https://katja-meryem-bruegel.de',
+    'https://test.katja-meryem-bruegel.de',
     #"*"
  ]
 
