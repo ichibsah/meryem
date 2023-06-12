@@ -23,3 +23,5 @@ docker run -it -d \
     meryem:test
 
 #     -v ./docker/code:/code/db \
+
+#git clone -b email https://github.com/ichibsah/meryem.git ./email
