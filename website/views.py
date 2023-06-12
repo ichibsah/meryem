@@ -27,7 +27,7 @@ class FormMixin:
             # )
             send_mail(
                 subject=[subject],
-                message=[message] + "sent from" + [email],
+                message=[message] + [email],
                 from_email=settings.EMAIL_HOST_USER,
                 recipient_list=[settings.RECIPIENT_ADDRESS],
                 fail_silently=False,
