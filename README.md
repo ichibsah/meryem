@@ -72,6 +72,9 @@ https://www.sitepoint.com/django-send-email/
 https://steelkiwi.com/blog/sending-emails-in-django-definitive-tutorial/
 https://www.abstractapi.com/guides/django-send-email
 
+### SSL ‘Certificate_Verify_Failed’ Error
+pip install --upgrade certifi
+
 ### python dictionaries
 
 
