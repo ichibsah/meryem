@@ -1,5 +1,5 @@
 #
-docker rm -f meryem
+docker rm -f meryemtest
 #
 sudo chmod 777 ./docker/* -R
 sudo chown ibrahim:ibrahim ./* -R
@@ -8,7 +8,7 @@ git add .
 git commit -am "$(date)"
 git push
 
-docker build -t meryem:test . 
+docker build -t meryemtest:test . 
 #docker build -t meryem:latest -t meryem:v2.0 . 
 #docker run -it -d -p 8090:80 -v /home/ibrahim/sandbox/meryem/logs:/var/log/nginx:rw --name meryem meryem 
 #docker run -it -d -p 8090:80 --name meryem --restart always -v /home/ibrahim/sandbox/meryem/website:/www -v /home/ibrahim/sandbox/meryem/logs:/var/log/nginx:rw meryem:latest 
@@ -18,9 +18,9 @@ docker build -t meryem:test .
 #docker exec -it meryem sh
 docker run -it -d \
     -p 8091:8000 \
-    --name meryem \
+    --name meryemtest \
     --restart always \
-    meryem:test
+    meryemtest:test
 
 #     -v ./docker/code:/code/db \
 
