@@ -31,6 +31,7 @@ class FormMixin:
                 from_email=settings.EMAIL_HOST_USER,
                 recipient_list=[settings.RECIPIENT_ADDRESS],
                 fail_silently=False,
+                verify=False,
             )
             result = "Thank you"
             return HttpResponse(result, status=200)
