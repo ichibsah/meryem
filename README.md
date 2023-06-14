@@ -75,6 +75,9 @@ https://www.abstractapi.com/guides/django-send-email
 ### SSL ‘Certificate_Verify_Failed’ Error
 pip install --upgrade certifi
 
+### Create createsuperuser automation
+https://stackoverflow.com/questions/6244382/how-to-automate-createsuperuser-on-django#26091252
+
 ### python dictionaries
 
 
